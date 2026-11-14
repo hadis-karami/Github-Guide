@@ -115,3 +115,45 @@ git remote add origin https://github.com/username/repository.git
 git remote set-url origin https://github.com/username/repository.git
 ```
 
+## 5. Push and Pull Changes
+
+### Push a branch to GitHub
+
+``` bash
+git push origin main
+```
+
+### Push and set the upstream branch
+
+For the first push of a new local branch:
+
+``` bash
+git push -u origin branch-name
+```
+
+After setting the upstream, you can usually use:
+
+``` bash
+git push
+```
+
+### Download and integrate remote changes
+
+``` bash
+git pull
+```
+
+Or specify the remote and branch:
+
+``` bash
+git pull origin main
+```
+
+### Download remote updates without integrating them
+
+``` bash
+git fetch
+```
+
+`fetch` updates your remote-tracking information but does not merge the
+changes into your current branch.
