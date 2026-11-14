@@ -195,21 +195,21 @@ git push
 ```
 ## 7. Quick Command Reference
 
-  Command                     Purpose
-  --------------------------- -----------------------------------------
-  `git init`                  Initialize a repository
-  `git clone URL`             Clone a remote repository
-  `git status`                Check repository status
-  `git add .`                 Stage all changes
-  `git commit -m "message"`   Create a commit
-  `git push`                  Upload commits to the remote
-  `git pull`                  Fetch and integrate remote changes
-  `git fetch`                 Download remote updates without merging
-  `git branch`                List local branches
-  `git switch branch`         Switch branches
-  `git switch -c branch`      Create and switch to a branch
-  `git merge branch`          Merge a branch into the current branch
-  `git log --oneline`         View compact commit history
-  `git diff`                  View unstaged changes
-  `git stash`                 Temporarily save tracked changes
-  `git remote -v`             View remote repository URLs
+  |Command                     |Purpose|
+  |--------------------------- |-----------------------------------------|
+  `git init`                  |Initialize a repository
+  `git clone URL`             |Clone a remote repository
+  `git status`                |Check repository status
+  `git add .`                 |Stage all changes
+  `git commit -m "message"`   |Create a commit
+  `git push`                  |Upload commits to the remote
+  `git pull`                  |Fetch and integrate remote changes
+  `git fetch`                 |Download remote updates without merging
+  `git branch`                |List local branches
+  `git switch branch`         |Switch branches
+  `git switch -c branch`      |Create and switch to a branch
+  `git merge branch`          |Merge a branch into the current branch
+  `git log --oneline`         |View compact commit history
+  `git diff`                  |View unstaged changes
+  `git stash`                 |Temporarily save tracked changes
+  `git remote -v`             |View remote repository URLs
