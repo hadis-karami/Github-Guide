@@ -8,7 +8,7 @@ when working with GitHub repositories.
 > **GitHub** is a platform for hosting Git repositories and
 > collaborating with others.
 
-------------------------------------------------------------------------
+
 
 ## 1. Configure Git
 
@@ -24,7 +24,7 @@ Check your configuration:
 ``` bash
 git config --global --list
 ```
-------------------------------------------------------------------------
+
 
 ## 2. Start Working with a Repository
 
@@ -51,4 +51,44 @@ git init
 git status
 ```
 
-Shows which files are modified, staged, or untracked.
+Shows which files are modified, staged, or untracked.  
+
+
+
+## 3. Stage and Commit Changes
+
+### Stage a specific file
+
+``` bash
+git add filename
+```
+
+### Stage all changes in the current directory
+
+``` bash
+git add .
+```
+
+### Unstage a file
+
+``` bash
+git restore --staged filename
+```
+
+This removes the file from the staging area but keeps your changes.
+
+### Commit staged changes
+
+``` bash
+git commit -m "Describe your changes"
+```
+
+A commit saves a snapshot of the staged changes.
+
+### Stage and commit tracked changes in one step
+
+``` bash
+git commit -am "Describe your changes"
+```
+
+This does **not** include new, untracked files. Use `git add` for those.
