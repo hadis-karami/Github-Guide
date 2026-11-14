@@ -156,4 +156,40 @@ git fetch
 ```
 
 `fetch` updates your remote-tracking information but does not merge the
-changes into your current branch.
+changes into your current branch.  
+
+## 6. A Typical Daily Workflow
+
+For a project you have already cloned:
+
+``` bash
+# 1. Check your current branch and working tree
+git status
+
+# 2. Get the latest changes
+git pull
+
+# 3. Create a branch for your task
+git switch -c feature/your-feature
+
+# 4. Make changes, then stage them
+git add .
+
+# 5. Commit your changes
+git commit -m "Add your feature"
+
+# 6. Push the branch to GitHub
+git push -u origin feature/your-feature
+
+# 7. Open a Pull Request on GitHub
+```
+
+For a simple project where you work directly on `main`, the shorter
+workflow is:
+
+``` bash
+git pull
+git add .
+git commit -m "Describe your changes"
+git push
+```
