@@ -91,4 +91,27 @@ A commit saves a snapshot of the staged changes.
 git commit -am "Describe your changes"
 ```
 
-This does **not** include new, untracked files. Use `git add` for those.
+This does **not** include new, untracked files. Use `git add` for those.  
+
+## 4. Connect to GitHub
+
+### View configured remote repositories
+
+``` bash
+git remote -v
+```
+
+### Add a GitHub remote
+
+``` bash
+git remote add origin https://github.com/username/repository.git
+```
+
+`origin` is the conventional name for the main remote repository.
+
+### Change the remote URL
+
+``` bash
+git remote set-url origin https://github.com/username/repository.git
+```
+
