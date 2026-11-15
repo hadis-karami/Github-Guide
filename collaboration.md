@@ -83,4 +83,23 @@ improvements, and approve work.
 ### Merge conflict
 
 A merge conflict occurs when Git cannot automatically combine changes,
-often because two developers edited the same lines.
+often because two developers edited the same lines.  
+
+## 4. Two common collaboration models
+
+### Shared repository
+
+The repository owner invites teammates as collaborators. Each teammate
+can push their own branches to the same repository, depending on their
+permissions.
+
+This is common for small teams, university projects, and company teams.
+
+### Fork and Pull Request
+
+A contributor creates a **fork**, which is their own GitHub copy of the
+original repository. They push changes to their fork and open a PR
+against the original project.
+
+This is common in open-source projects where contributors do not have
+direct write access.
