@@ -207,3 +207,28 @@ Before opening a PR, check that:
 -   You have not committed passwords, API keys, or other secrets.
 -   Documentation is updated when necessary.
 -   The PR description explains the change.
+
+## 8. Code reviews
+
+A code review is a teammate's examination of proposed changes before
+they are merged.
+
+Reviewers should consider:
+
+-   **Correctness:** Does the code do what it should?
+-   **Readability:** Can another developer understand it?
+-   **Maintainability:** Will it be easy to change later?
+-   **Security:** Are there unsafe operations or exposed secrets?
+-   **Testing:** Are important cases covered?
+-   **Scope:** Does the PR contain only changes related to its task?
+
+Good review etiquette:
+
+-   Discuss the code, not the person.
+-   Explain why a change is needed.
+-   Ask questions when uncertain.
+-   Keep comments specific and constructive.
+-   The author should respond to feedback and push updates to the same
+    branch.
+
+On GitHub, reviewers can comment, approve, or request changes.
