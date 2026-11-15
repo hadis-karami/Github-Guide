@@ -170,4 +170,40 @@ git push --force-with-lease
 
 Use this only when you understand the consequences and have coordinated
 with teammates. Avoid plain `git push --force`, which can overwrite
-remote work.
+remote work.  
+
+## 7. Writing a good Pull Request
+
+A useful PR explains:
+
+-   **What changed?** Describe the implementation.
+-   **Why was it needed?** Explain the requirement or link an issue.
+-   **How was it tested?** List tests or manual checks.
+-   **Are there risks?** Mention anything reviewers should inspect
+    carefully.
+
+Example PR description:
+
+``` markdown
+## Summary
+- Add user registration form
+- Validate email and password fields
+- Display validation messages
+
+## Testing
+- Tested valid registration
+- Tested invalid email
+- Tested empty required fields
+
+## Related issue
+Closes #12
+```
+
+Before opening a PR, check that:
+
+-   Your branch is based on an up-to-date `main`.
+-   The change has a focused purpose.
+-   You have tested the relevant functionality.
+-   You have not committed passwords, API keys, or other secrets.
+-   Documentation is updated when necessary.
+-   The PR description explains the change.
