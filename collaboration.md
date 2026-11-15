@@ -263,3 +263,16 @@ git pull origin main
 ```
 
 They now have the latest integrated version of the project.
+
+## 10. Key takeaways
+
+1.  Use Git to track changes and GitHub to coordinate collaboration.
+2.  Keep `main` stable; do your work on task-specific branches.
+3.  Fetch or pull regularly so your branch does not drift too far
+    behind.
+4.  Commit small, meaningful changes.
+5.  Push your branch and open a PR instead of directly changing `main`.
+6.  Review teammates' code respectfully and carefully.
+7.  Resolve conflicts by understanding both changes.
+8.  Never commit secrets.
+9.  Agree on branch names, commit messages, and review rules as a team.
