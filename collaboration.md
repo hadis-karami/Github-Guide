@@ -129,7 +129,7 @@ Check the remote:
 git remote -v
 ```
 
-## 7. Keeping your branch up to date
+## 6. Keeping your branch up to date
 
 Other teammates may merge changes into `main` while you work. Bring
 those changes into your feature branch periodically.
