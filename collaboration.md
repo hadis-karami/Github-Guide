@@ -128,3 +128,46 @@ Check the remote:
 ``` bash
 git remote -v
 ```
+
+## 7. Keeping your branch up to date
+
+Other teammates may merge changes into `main` while you work. Bring
+those changes into your feature branch periodically.
+
+First, fetch the latest remote information:
+
+``` bash
+git fetch origin
+```
+
+### Option A: Merge main into your branch
+
+``` bash
+git switch feature/user-registration
+git merge origin/main
+```
+
+This preserves the branch history and may create a merge commit.
+
+### Option B: Rebase your branch onto main
+
+``` bash
+git switch feature/user-registration
+git rebase origin/main
+```
+
+Rebase replays your commits on top of the latest `main`, creating a more
+linear history.
+
+**Important:** Do not rebase a branch that other people are actively
+using unless your team has agreed on it. Rebase changes commit history.
+If you have already pushed the branch, updating it after a rebase may
+require:
+
+``` bash
+git push --force-with-lease
+```
+
+Use this only when you understand the consequences and have coordinated
+with teammates. Avoid plain `git push --force`, which can overwrite
+remote work.
