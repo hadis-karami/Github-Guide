@@ -102,4 +102,29 @@ original repository. They push changes to their fork and open a PR
 against the original project.
 
 This is common in open-source projects where contributors do not have
-direct write access.
+direct write access.  
+
+## 5. Set up a shared repository
+
+One team member creates a repository:
+
+1.  Sign in to GitHub.
+2.  Select **New repository**.
+3.  Choose a name and visibility.
+4.  Optionally initialize it with a README and `.gitignore`.
+5.  Create the repository.
+6.  Open **Settings → Collaborators** (menu wording may vary).
+7.  Invite teammates by their GitHub usernames.
+
+Each teammate accepts the invitation and clones the repository:
+
+``` bash
+git clone https://github.com/OWNER/REPOSITORY.git
+cd REPOSITORY
+```
+
+Check the remote:
+
+``` bash
+git remote -v
+```
