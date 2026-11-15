@@ -1,5 +1,19 @@
-# Github-Guide
-Project Status:In Progress
+# GitHub-Guide
 
-[github.com/username1](https://github.com/username1)
-[github.com/username2](https://github.com/username2)
+A beginner-friendly guide to Git and GitHub for students.
+It explains the basic commands, branching, merging and teamwork on GitHub.
+
+Project Status: In Progress
+
+## Guide Files
+
+- [basic-commands.md](basic-commands.md)
+- [branching.md](branching.md)
+- [merging.md](merging.md)
+- [collaboration.md](collaboration.md)
+
+## Team Members
+
+- Hadis Karami - [github.com/hadis-karami](https://github.com/hadis-karami)
+- Zahra Tohidefar - [github.com/tiredZaroo](https://github.com/tiredZaroo)
+- Mohammad Yarahmadi - [github.com/MhmdYarahmadi](https://github.com/MhmdYarahmadi)
