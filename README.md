@@ -3,7 +3,7 @@
 A beginner-friendly guide to Git and GitHub for students.
 It explains the basic commands, branching, merging and teamwork on GitHub.
 
-Project Status: Under Review
+Project Status: Completed
 
 ## Guide Files
 
