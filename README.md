@@ -14,6 +14,6 @@ Project Status: In Progress
 
 ## Team Members
 
-- Hadis Karami - [github.com/username1](https://github.com/hadis-karami)
-- Zahra Tohidefar - [github.com/username2](https://github.com/tiredZaroo)
-- Mohammad Yarahmadi - [github.com/username3](https://github.com/MhmdYarahmadi)
+- Hadis Karami - [github.com/hadis-karami](https://github.com/hadis-karami)
+- Zahra Tohidefar - [github.com/tiredZaroo](https://github.com/tiredZaroo)
+- Mohammad Yarahmadi - [github.com/MhmdYarahmadi](https://github.com/MhmdYarahmadi)
