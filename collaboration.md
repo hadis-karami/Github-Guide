@@ -232,3 +232,34 @@ Good review etiquette:
     branch.
 
 On GitHub, reviewers can comment, approve, or request changes.
+
+## 9. Example: a team of three developers
+
+Imagine three people are building a university project:
+
+-   Developer A: user authentication.
+-   Developer B: dashboard interface.
+-   Developer C: database integration.
+
+They start from the same `main` branch, but each creates a separate
+branch:
+
+``` text
+main
+├── feature/authentication
+├── feature/dashboard
+└── feature/database
+```
+
+Each developer commits and pushes their work independently. They open
+PRs, review one another's changes, resolve conflicts if needed, and
+merge approved work into `main`.
+
+After the PRs are merged, everyone updates their local `main`:
+
+``` bash
+git switch main
+git pull origin main
+```
+
+They now have the latest integrated version of the project.
