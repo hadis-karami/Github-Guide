@@ -32,4 +32,55 @@ A common team workflow is:
 10. Everyone updates their local `main` branch.
 
 The key idea is that developers work independently on branches and
-integrate their work through pull requests.
+integrate their work through pull requests.  
+
+## 3. Important concepts
+
+### Repository
+
+A repository (repo) contains project files and their Git history.
+
+-   **Local repository:** the copy on your computer.
+-   **Remote repository:** a shared copy hosted on GitHub.
+
+### Commit
+
+A commit is a saved snapshot of your changes. A good commit represents
+one logical unit of work.
+
+``` bash
+git add .
+git commit -m "Add login form validation"
+```
+
+### Branch
+
+A branch is an independent line of development. It allows you to work on
+a feature without changing `main` immediately.
+
+Examples:
+
+-   `feature/user-login`
+-   `feature/profile-page`
+-   `bugfix/navbar-overflow`
+-   `docs/update-readme`
+
+### Remote
+
+A remote is a named reference to another repository. The default remote
+is commonly called `origin`.
+
+``` bash
+git remote -v
+```
+
+### Pull Request
+
+A Pull Request (PR) is a GitHub proposal to merge one branch into
+another. It provides a place to review code, discuss changes, request
+improvements, and approve work.
+
+### Merge conflict
+
+A merge conflict occurs when Git cannot automatically combine changes,
+often because two developers edited the same lines.
